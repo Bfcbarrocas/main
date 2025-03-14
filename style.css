@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    margin: 0px;
+}
+
+
+header > h1 {
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    margin: 0px auto 0px auto;
+    text-align: center;
+
+}
+nav {
+    margin: 0px;
+}
+main {
+
+    margin: 0px auto ;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+main > h1 {
+    font-family: 'Tinos';
+    padding: 15px;
+    text-align: left;
+    margin: 0px;
+    background-color: rgb(238, 39, 39);
+}
+
+section {
+    padding: 3px;
+}
+section {
+    color: black;
+}
+
+section > h1 {
+    text-align: left;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+article {
+    background-color: rgba(255, 255, 255);
+    max-width: 750px;
+    padding: 4px;
+    margin: 0px auto 0px auto ;
+    line-height: 1.6em;
+}
+
+article > h1,p{
+    margin: 15px 15px 45px 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article > h2 {
+    font-family: 'Sriracha';
+    font-weight: lighter;
+}
+article > p{
+    margin: 15px 15px 25px 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > img {
+    max-width: 500px;
+    width: 90%;
+}
+
+article.statement {
+    max-width: 750px
+    text-align: justify;
+}
+article.statement > h2 {
+    text-align: center;
+}
+article.statement > h3 {
+    text-align: center;
+}
+.alignc {
+text-align: center;
+}
+hr {
+color: black;
+}
